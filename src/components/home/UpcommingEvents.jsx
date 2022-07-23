@@ -1,6 +1,9 @@
 import React from "react";
 // Images
-import upcomingEvent1 from "../../assets/LandingPage/1stCard.jpg";
+import upcomingEvent1 from "../../assets/LandingPage/event1.png";
+import upcomingEvent2 from "../../assets/LandingPage/event2.png";
+import upcomingEvent3 from "../../assets/LandingPage/event3.png";
+import upcomingEvent4 from "../../assets/LandingPage/event4.png";
 
 const UpcommingEvents = () => {
   return (
@@ -48,7 +51,7 @@ const UpcommingEvents = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={upcomingEvent2}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
@@ -75,7 +78,7 @@ const UpcommingEvents = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={upcomingEvent3}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
@@ -102,7 +105,7 @@ const UpcommingEvents = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={upcomingEvent4}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />

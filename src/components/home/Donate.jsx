@@ -1,6 +1,10 @@
 import React from "react";
 // Images
-import upcomingEvent1 from "../../assets/LandingPage/1stCard.jpg";
+
+import donate1 from "../../assets/LandingPage/donate1.png";
+import donate2 from "../../assets/LandingPage/donate2.png";
+import donate3 from "../../assets/LandingPage/donate3.png";
+import donate4 from "../../assets/LandingPage/donate4.png";
 
 const Donate = () => {
   return (
@@ -22,18 +26,18 @@ const Donate = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={donate1}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[40px]  ">
-              Festival Sevas
+              Vanamamalai Seva
             </h1>
             <p className="text-sm h-[100px]  leading-loose text-gray-600">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
-              vel eaque quaerat nam vitae esse quia aliquid voluptatibus...
+              An opportunity for you to contribute towards devine, daily worship
+              and various other sevas which are...
             </p>
           </div>
           <div className="w-full flex   justify-center items-center py-4 text-sm group-hover:bg-[#f76c66] group-hover:text-white font-semibold bg-[#ffae03] transition uppercase">
@@ -45,18 +49,18 @@ const Donate = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={donate2}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[40px]  ">
-              Srivigraha Nitya Seva
+              Annadana Seva
             </h1>
             <p className="text-sm h-[100px]  leading-loose text-gray-600">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
-              vel eaque quaerat nam vitae esse quia aliquid voluptatibus...
+              Donate towards free and tasty lunch prasadam served every day to
+              hundreds of pilgrims visiting the...
             </p>
           </div>
           <div className="w-full flex   justify-center items-center py-4 text-sm group-hover:bg-[#f76c66] group-hover:text-white font-semibold bg-[#ffae03] transition uppercase">
@@ -68,18 +72,18 @@ const Donate = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={donate3}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[40px]  ">
-              Annadana Seva
+              Gurukul Seva
             </h1>
             <p className="text-sm h-[100px]  leading-loose text-gray-600">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
-              vel eaque quaerat nam vitae esse quia aliquid voluptatibus...
+              An opportunity for you to contribute towards shiksha, sanskaras
+              and various other sections which are...
             </p>
           </div>
           <div className="w-full flex   justify-center items-center py-4 text-sm group-hover:bg-[#f76c66] group-hover:text-white font-semibold bg-[#ffae03] transition uppercase">
@@ -91,7 +95,7 @@ const Donate = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={donate4}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
@@ -101,8 +105,8 @@ const Donate = () => {
               Festival Sevas
             </h1>
             <p className="text-sm h-[100px]  leading-loose text-gray-600">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
-              vel eaque quaerat nam vitae esse quia aliquid voluptatibus...
+              Various festivals are celebrated at Vanamamalai, Nanguneri,
+              throughout the year in commemoration of the divine appearance...
             </p>
           </div>
           <div className="w-full flex   justify-center items-center py-4 text-sm group-hover:bg-[#f76c66] group-hover:text-white font-semibold bg-[#ffae03] transition uppercase">

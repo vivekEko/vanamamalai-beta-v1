@@ -1,6 +1,9 @@
 import React from "react";
 // Images
-import upcomingEvent1 from "../../assets/LandingPage/1stCard.jpg";
+import activity1 from "../../assets/LandingPage/activity1.png";
+import activity2 from "../../assets/LandingPage/activity2.png";
+import activity3 from "../../assets/LandingPage/activity3.png";
+import activity4 from "../../assets/LandingPage/activity4.png";
 
 const Activities = () => {
   return (
@@ -22,18 +25,17 @@ const Activities = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={activity1}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[30px]  ">
-              Temple Bhajans
+              Teachings
             </h1>
             <p className="text-sm h-[60px]  leading-loose text-gray-600">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
-              vel...
+              Teachings bound to spark your consciousness...
             </p>
           </div>
           <div className="w-full flex   justify-center items-center py-4 text-sm group-hover:bg-[#f76c66] group-hover:text-white font-semibold bg-[#ffae03] transition uppercase">
@@ -45,18 +47,17 @@ const Activities = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={activity2}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[30px]  ">
-              Temple Aarathi
+              Temple tours
             </h1>
             <p className="text-sm h-[60px]  leading-loose text-gray-600">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
-              vel...
+              A unique religious tourism tour is a...
             </p>
           </div>
           <div className="w-full flex   justify-center items-center py-4 text-sm group-hover:bg-[#f76c66] group-hover:text-white font-semibold bg-[#ffae03] transition uppercase">
@@ -68,18 +69,17 @@ const Activities = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={activity3}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[30px]  ">
-              Temple Bhajans
+              Know our Jeeyars
             </h1>
             <p className="text-sm h-[60px]  leading-loose text-gray-600">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
-              vel...
+              Meet our Jeeyars between...
             </p>
           </div>
           <div className="w-full flex   justify-center items-center py-4 text-sm group-hover:bg-[#f76c66] group-hover:text-white font-semibold bg-[#ffae03] transition uppercase">
@@ -91,18 +91,17 @@ const Activities = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={activity4}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[30px]  ">
-              Temple Aarathi
+              Lectures and seminars
             </h1>
             <p className="text-sm h-[60px]  leading-loose text-gray-600">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia
-              vel...
+              Listen to divine discussions held every day; starting from ...
             </p>
           </div>
           <div className="w-full flex   justify-center items-center py-4 text-sm group-hover:bg-[#f76c66] group-hover:text-white font-semibold bg-[#ffae03] transition uppercase">

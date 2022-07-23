@@ -5,6 +5,7 @@ import Activities from "./components/home/Activities";
 import Donate from "./components/home/Donate";
 import Gallery from "./components/home/Gallery";
 import HeroBanner from "./components/home/HeroBanner";
+import SmallCarousel from "./components/home/SmallCarousel";
 import UpcommingEvents from "./components/home/UpcommingEvents";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <BootomHeader />
       <HeroBanner />
+      <SmallCarousel />
       <UpcommingEvents />
       <Donate />
       <Activities />

@@ -10,15 +10,15 @@ const handleDragStart = (e) => e.preventDefault();
 
 const responsiveObject = {
   0: {
-    items: 1,
+    items: 3,
   },
 };
 
 const opts = {
-  height: "480",
+  height: "200",
   width: "100%",
   playerVars: {
-    autoplay: 1,
+    autoplay: 0,
     controls: 1,
     rel: 0,
     showinfo: 0,
@@ -27,31 +27,50 @@ const opts = {
   },
 };
 
+// https://www.youtube.com/watch?v=7IpwB4_W7Jw
+// https://www.youtube.com/watch?v=s3a6knnAzQI
+// https://www.youtube.com/watch?v=2Qa4iZtq9gg
+// https://www.youtube.com/watch?v=D_bHVNd13zs
+
 const items = [
   <div
     onDragStart={handleDragStart}
     role="presentation"
-    className=" flex justify-center items-center w-full  mx-auto"
+    className=" flex justify-center items-center w-full  "
   >
-    <YouTube videoId={"4dTzP4dIuik"} className="w-full" opts={opts} />
+    <YouTube videoId={"7IpwB4_W7Jw"} className="w-full mx-2" opts={opts} />
   </div>,
 
   <div
     onDragStart={handleDragStart}
     role="presentation"
-    className="flex justify-center items-center w-full mx-auto"
+    className="flex justify-center items-center w-full "
   >
-    <YouTube videoId={"vo8mtcTrsKc"} className="w-full" opts={opts} />
+    <YouTube videoId={"s3a6knnAzQI"} className="w-full mx-2" opts={opts} />
+  </div>,
+  <div
+    onDragStart={handleDragStart}
+    role="presentation"
+    className="flex justify-center items-center w-full "
+  >
+    <YouTube videoId={"2Qa4iZtq9gg"} className="w-full mx-2" opts={opts} />
+  </div>,
+  <div
+    onDragStart={handleDragStart}
+    role="presentation"
+    className="flex justify-center items-center w-full "
+  >
+    <YouTube videoId={"D_bHVNd13zs"} className="w-full mx-2" opts={opts} />
   </div>,
 ];
 
-const HeroBanner = () => {
+const SmallCarousel = () => {
   // local variables
   const [selevctedIndex, setSelectedIndex] = useState(0);
   return (
     <section className="mt-5">
       {/* carousel */}
-      <div className="h-[500px]  w-[80%] mx-auto relative">
+      <div className="h-[200px]  w-[80%] mx-auto relative">
         <div className="max-w-[3000px]  mx-auto relative">
           <AliceCarousel
             mouseTracking
@@ -104,4 +123,4 @@ const HeroBanner = () => {
   );
 };
 
-export default HeroBanner;
+export default SmallCarousel;

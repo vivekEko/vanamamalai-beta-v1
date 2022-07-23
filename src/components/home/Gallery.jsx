@@ -1,6 +1,9 @@
 import React from "react";
 // Images
-import upcomingEvent1 from "../../assets/LandingPage/1stCard.jpg";
+import gallery1 from "../../assets/LandingPage/gallery1.png";
+import gallery2 from "../../assets/LandingPage/gallery2.png";
+import gallery3 from "../../assets/LandingPage/gallery3.png";
+import gallery4 from "../../assets/LandingPage/gallery4.png";
 
 const Gallery = () => {
   return (
@@ -22,14 +25,14 @@ const Gallery = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={gallery1}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[50px]  ">
-              Deities of Sri Rajadhiraja Govinda Temple
+              Glimpse of Jeeyars
             </h1>
           </div>
         </div>
@@ -38,14 +41,14 @@ const Gallery = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={gallery2}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[50px]  ">
-              Sri Rajadhiraja Govinda temple inauguration
+              Dignitary visits
             </h1>
           </div>
         </div>
@@ -54,14 +57,14 @@ const Gallery = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={gallery3}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[50px]  ">
-              Honorable Governor’s visit – June 9, 2022
+              Deities of Vanamamalai
             </h1>
           </div>
         </div>
@@ -70,14 +73,14 @@ const Gallery = () => {
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">
             <img
-              src={upcomingEvent1}
+              src={gallery4}
               alt="garuda panchami"
               className="w-full group-hover:scale-105 transition"
             />
           </div>
           <div className=" w-full p-4 border-b flex flex-col justify-between ">
             <h1 className="mb-2 font-semibold text-lg  min-h-[50px]  ">
-              Glimpses of Sri Narasimha Jayanti – 2022
+              Seminars and activities
             </h1>
           </div>
         </div>
