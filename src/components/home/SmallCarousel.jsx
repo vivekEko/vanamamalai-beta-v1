@@ -27,11 +27,6 @@ const opts = {
   },
 };
 
-// https://www.youtube.com/watch?v=7IpwB4_W7Jw
-// https://www.youtube.com/watch?v=s3a6knnAzQI
-// https://www.youtube.com/watch?v=2Qa4iZtq9gg
-// https://www.youtube.com/watch?v=D_bHVNd13zs
-
 const items = [
   <div
     onDragStart={handleDragStart}
@@ -70,7 +65,7 @@ const SmallCarousel = () => {
   return (
     <section className="mt-5">
       {/* carousel */}
-      <div className="h-[200px]  w-[80%] mx-auto relative">
+      <div className="h-[200px]  w-[90%] mx-auto relative">
         <div className="max-w-[3000px]  mx-auto relative">
           <AliceCarousel
             mouseTracking
@@ -97,19 +92,15 @@ const SmallCarousel = () => {
             responsive={responsiveObject}
             renderPrevButton={() => {
               return (
-                <div className=" absolute left-0 top-0  h-[85.5%] flex justify-center items-center">
-                  <div className=" w-[50px]  h-[50px] flex justify-center items-center bg-white  opacity-50 hover:opacity-100  group cursor-pointer">
-                    <ArrowForwardIosRoundedIcon className="text-gray-800 group-hover:text-[#ffae03] rotate-180" />
-                  </div>
+                <div className=" absolute left-0 top-[35%] w-[50px]  h-[50px] flex justify-center items-center bg-white  opacity-50 hover:opacity-100  group cursor-pointer">
+                  <ArrowForwardIosRoundedIcon className="text-gray-800 group-hover:text-[#ffae03] rotate-180" />
                 </div>
               );
             }}
             renderNextButton={() => {
               return (
-                <div className=" absolute right-0 top-0  h-[85.5%] flex justify-center items-center">
-                  <div className=" w-[50px]  h-[50px] flex justify-center items-center bg-white  opacity-50 hover:opacity-100  group cursor-pointer">
-                    <ArrowForwardIosRoundedIcon className="text-gray-800 group-hover:text-[#ffae03]" />
-                  </div>
+                <div className="absolute right-0 top-[35%]  w-[50px]  h-[50px] flex justify-center items-center bg-white  opacity-50 hover:opacity-100  group cursor-pointer">
+                  <ArrowForwardIosRoundedIcon className="text-gray-800 group-hover:text-[#ffae03]" />
                 </div>
               );
             }}

@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="h-[500px] w-full bg-[#202020] ">
-      <div className=" w-[80%] h-full mx-auto  grid grid-cols-4 gap-2 py-10">
+      <div className=" w-[90%]  h-full mx-auto  grid grid-cols-4 gap-2 py-10">
         {/* Founder */}
         <div className="w-full h-full ">
           <h1 className="uppercase font-semibold mb-2 text-white text-xl">
@@ -105,12 +105,12 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div className="w-full h-full pt-20 ">
-          <h1 className="uppercase font-semibold mb-2 text-white text-lg">
+        <div className="w-full h-full pt-20  ">
+          <h1 className="uppercase font-semibold mb-2 text-white text-lg ">
             Quick Links
           </h1>
 
-          <div className=" text-sm w-[60%] grid-rows-5 ">
+          <div className=" text-sm   justify-items-start grid  grid-cols-1  ">
             <div className="p-2 bg-gray-300 mb-5 w-[130px] text-center hover:bg-[#ffae03] hover:text-white cursor-pointer">
               Daily Darshan
             </div>

@@ -9,8 +9,8 @@ const UpcommingEvents = () => {
   return (
     <section className="pt-10  bg-gray-100">
       {/* events header */}
-      <div className="flex justify-between items-center  w-[80%] mx-auto gap-5">
-        <div className="uppercase w-[25%] max-w-[200px] text-lg font-semibold">
+      <div className="flex justify-between items-center  w-[90%] mx-auto gap-5">
+        <div className="uppercase w-[250px] max-w-[200px] text-lg font-semibold">
           Upcoming Events
         </div>
         <div className="h-[1px] bg-gray-300 w-full"></div>
@@ -20,7 +20,7 @@ const UpcommingEvents = () => {
       </div>
 
       {/* events boody */}
-      <div className="  w-[80%] mx-auto mt-5 grid grid-cols-4 gap-10">
+      <div className="  w-[90%] mx-auto mt-5 grid grid-cols-4 gap-10">
         {/* 1ST CARD */}
         <div className="w-full  border group bg-white">
           <div className=" w-full bg-gray-200 overflow-hidden">

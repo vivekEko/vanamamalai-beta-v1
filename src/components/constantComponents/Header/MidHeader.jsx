@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import header1 from "../../../assets/LandingPage/Header1.png";
 import header2 from "../../../assets/LandingPage/Header2.png";
 
 const MidHeader = () => {
+  const [donateAnimationStatus, setDonateAnimationStatus] = useState(false);
   return (
     <div>
       {/* mid header content container */}
@@ -22,7 +23,13 @@ const MidHeader = () => {
 
         {/* Donate CTA */}
         <div className="flex-1">
-          <div className="ml-auto bg-gradient-to-t from-[#f76c66] to-[#ffb349] text-white text-center rounded-md p-3  active:scale-95 cursor-pointer transition w-[200px] hover:scale-105">
+          <div
+            onMouseEnter={() => setDonateAnimationStatus(false)}
+            onMouseLeave={() => setDonateAnimationStatus(true)}
+            className={`ml-auto hover:bg-[#f76c66] bg-[#ffae03]  ${
+              donateAnimationStatus ? "donate-exit-animation" : ""
+            } text-white text-center rounded-md p-3  active:scale-95 cursor-pointer transition w-[200px]  `}
+          >
             Donate Now
           </div>
         </div>
